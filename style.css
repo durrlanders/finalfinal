@@ -50,8 +50,8 @@ display: flex;
   z-index: +1;
 }
 .abt{
-  grid-row-start: 4;
-  grid-row-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 8;
   grid-column-start: 1;
     grid-column-end: 1;
   margin-left: 10vw;
@@ -95,8 +95,8 @@ background-image: url(pyramid.png);
 
 }
 .invest{
-  grid-row-start: 8;
-  grid-row-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 4;
   grid-column-start: 1;
     grid-column-end: 1;
   margin-left: 10vw;
@@ -286,10 +286,10 @@ background-image: url(pyramid.png);
 .abt{
   grid-row-start: 3;
   grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 1;
-  margin-left: 3vw;
-    margin-right: 0vw;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  margin-left: 0vw;
+    margin-right: 3vw;
   background-color: white;
 
 display: flex;
@@ -308,10 +308,10 @@ flex-direction: column;
 .invest{
   grid-row-start: 3;
   grid-row-end: 3;
-  grid-column-start: 3;
-  grid-column-end: 3;
-  margin-left: 0vw;
-    margin-right: 3vw;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  margin-left: 3vw;
+    margin-right: 0vw;
     background-color: white;
 
 
