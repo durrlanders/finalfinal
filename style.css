@@ -1,0 +1,408 @@
+@media only screen and (max-width: 800px) {
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
+  position: fixed;
+  width: 100vw;
+  height: 20vw;
+background-color: #124734;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+z-index: 2;
+
+}
+.bars{
+  height: 9vw;
+  margin-left: 5vw;
+
+}
+.big{
+  display: none;
+}
+.name{
+  height: 15.5vw;
+  margin-right: 3vw;
+
+}
+
+.maincontainer{
+  display: grid;
+  grid-template-columns: 1;
+    grid-template-rows: 20vw 95vw 12vw 90vw 12vw 90vw 12vw 90vw 8vw;
+    background-color: #E6E6E6;
+
+}
+.hero{
+  height: 95vw;
+  margin-top: 20vw;
+  background-color: white;
+  background-image: url(backaround.png);
+  background-size: 120vw;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #4B4846;
+  z-index: +1;
+}
+.abt{
+  grid-row-start: 4;
+  grid-row-end: 4;
+  grid-column-start: 1;
+    grid-column-end: 1;
+  margin-left: 10vw;
+    margin-right: 10vw;
+  background-color: white;
+
+display: flex;
+flex-direction: column;
+}
+.aimaage{
+  height: 52vw;
+  background-image: url(thumbs.png);
+  background-color: #857B3E;
+  background-size: 104vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: -15.08vw;
+  background-position-y: -50.08vw;
+}
+.cimaage{
+height: 52vw;
+background-size: 140vw;
+background-position: center;
+background-image: url(https://goldiraguide.org/wp-content/uploads/2015/02/beat-the-stock-market.jpg);
+}
+.bimaage{
+height: 52vw;
+background-size: 95vw;
+background-position: center;
+background-repeat: no-repeat;
+background-image: url(pyramid.png);
+}
+.how{
+  grid-row-start: 6;
+  grid-row-end: 6;
+  grid-column-start: 1;
+    grid-column-end: 1;
+  margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: white;
+
+}
+.invest{
+  grid-row-start: 8;
+  grid-row-end: 8;
+  grid-column-start: 1;
+    grid-column-end: 1;
+  margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: white;
+
+}
+h1{
+  font-size: 11.4vw;
+  font-family: ff-scala, sans-serif;
+  font-weight: 700;
+    font-style: italic;
+    margin-top: 0vh;
+    margin-bottom: -2vh;
+    text-indent: 2vw;
+        color: #4B4846;
+}
+.yerr{
+    font-size: 8.4vw;
+    font-family: ff-scala-sans-pro, sans-serif;
+    font-weight: 400;
+    margin-top: -7vw;
+    margin-bottom: 0vw;
+
+}
+a{
+    font-size: 7vw;
+    font-family: ff-scala-sans-pro, sans-serif;
+    font-weight: 400;
+
+}
+.tex{
+  margin-top: -4vw;
+}
+.textContent{
+  display: flex;
+  flex-flow: column;
+
+height: 22vw;
+margin-left: 5vw;
+margin-top: 1.5vw;
+margin-right: 4vw;
+margin-bottom: 0vw;
+}
+.head{
+  font-size: 8vw;
+  font-family: ff-scala, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 0vw;
+  margin-bottom: -1.5vw;
+  height:9vw;
+  align-self: flex-start;
+ text-indent: -1vw;
+   text-decoration: none;
+}
+
+.sub{
+
+  font-family: ff-scala-sans-pro, sans-serif;
+  font-weight: 400;
+  font-size: 4.8vw;
+  margin-top: 2vw;
+  text-indent: 6vw;
+  margin-bottom: 0vw;
+}
+.boobs{
+  text-decoration: none;
+    color: #4B4846;
+}
+.more{
+  font-family: ff-scala, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5.3vw;
+    text-indent: 5vw;
+    align-self: flex-end;
+    margin-top: -4.4vw;
+    margin-bottom: 0vw;
+    margin-right: .2vw;
+}
+.fr{
+  margin-bottom: 9vw;
+  font-size: 15vw;
+
+}
+}
+@media only screen and (min-width: 800px){
+body, html{
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+.navbar{
+  position: fixed;
+  width: 100vw;
+  height: 10vw;
+background-color: #124734;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+z-index: 2;
+
+}
+.name{
+  height: 5.5vw;
+  margin-right: 3vw;
+
+}
+
+.maincontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vw 42vw 46vw 3vw;
+    background-color: #E6E6E6;
+
+}
+.hero{
+  height: 39vw;
+  margin-top: 10vw;
+  background-color: white;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-image: url(backaround.png);
+  background-size: 107vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #4B4846;
+  z-index: +1;
+}
+.tex{
+  margin-top: 0vw;
+}
+h1{
+  font-size: 7.9vw;
+  font-family: ff-scala, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 1vh;
+  margin-bottom: 9vh;
+
+  color: #4B4846;
+
+}
+.yerr{
+  font-size: 3.6vw;
+font-family: ff-scala-sans-pro, sans-serif;
+font-weight: 400;
+margin-top: -5.9vw;
+margin-bottom: .2vw;
+
+}
+a{
+  font-size: 2.3vw;
+font-family: ff-scala-sans-pro, sans-serif;
+font-weight: 400;
+
+
+}
+.aimaage{
+  height: 27vw;
+    background-image: url(thumbs.png);
+    background-size: 49vw;
+      background-color: #857B3E;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: -10.715408vw;
+    background-position-y: -24.08vw;
+  }
+.cimaage{
+height: 27vw;
+background-size: 62vw;
+background-position: center;
+background-image: url(https://goldiraguide.org/wp-content/uploads/2015/02/beat-the-stock-market.jpg);
+}
+.bimaage{
+height: 27vw;
+background-size: 50vw;
+background-position: center;
+background-repeat: no-repeat;
+background-image: url(pyramid.png);
+}
+
+.abt{
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  margin-left: 3vw;
+    margin-right: 0vw;
+  background-color: white;
+
+display: flex;
+flex-direction: column;
+}
+.how{
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    background-color: white;
+
+}
+.invest{
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  margin-left: 0vw;
+    margin-right: 3vw;
+    background-color: white;
+
+
+}
+
+.textContent{
+  display: flex;
+  flex-flow: column;
+
+height: 10vw;
+margin-left: .5vw;
+margin-top: .5vw;
+margin-right: .5vw;
+margin-bottom: 0vw;
+}
+.head{
+  font-size: 3.5vw;
+  font-family: ff-scala, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 0vw;
+  margin-bottom: -1.8vw;
+  height:9vw;
+  align-self: flex-start;
+ text-indent: 1vw;
+   text-decoration: none;
+}
+.how .textContent .more{
+  margin-top: .8vw;
+
+}
+.invest:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  right: 10vw;
+
+}
+.abt:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.how:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sub{
+
+  font-family: ff-scala-sans-pro, sans-serif;
+      font-weight: 400;
+      margin-left: 1vw;
+      margin-right: .5vw;
+      font-size: 2.1vw;
+      margin-top: -5vw;
+      text-indent: 4vw;
+      margin-bottom: 0vw;
+}
+.boobs{
+  text-decoration: none;
+    color: #4B4846;
+}
+.more{
+  font-family: ff-scala, sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 2.4vw;
+      text-indent: 5vw;
+      align-self: flex-end;
+      margin-top: -1.4vw;
+      margin-bottom: 0vw;
+      margin-right: 1.6vw;
+}
+.bars{
+  height: 3.6vw;
+  margin-left: 4vw;
+  margin-top: .5vw;
+
+}
+.big{
+color: #E6E6E6;
+align-self: baseline;
+margin-bottom: .7vw;
+font-size: 5vw;
+text-decoration: none;
+text-indent: 2.7vw;
+}
+.classy{
+  text-decoration: none;
+}
+.other{
+  margin-top: .52vw;
+    margin-bottom: .5vw;
+text-indent: -.2vw;
+}
+.fr{
+    margin-bottom: 4.6vw;
+}
+}
