@@ -52,14 +52,16 @@ flex-direction: column;
   height: auto;
   background-color: white;
   overflow: visible;
+    background-image: url("back.png");
 z-index: +1;
 
 }
 .immage{
   height: 72vw;
-      background-image: url(pyramid.png);
+      background-image: url(pyramidd.png);
       background-position: center;
-      background-size: 134vw;
+      background-size: 84vw;
+      background-repeat: no-repeat;
 }
 h1{
   font-size: 11.4vw;
